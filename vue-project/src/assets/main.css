@@ -1,8 +1,15 @@
 @import './base.css';
+
 h1 {
   text-align: center;
+  color: #ffffff;
+  font-size: 40px;
+  padding-top: 90px;
 }
 
 body{
-  background-image: url(https://w0.peakpx.com/wallpaper/887/193/HD-wallpaper-jett-in-red-black-background-valorant.jpg);
+  background-image: url(https://images5.alphacoders.com/131/1317015.jpeg);
+  background-size: cover; 
+  background-repeat: no-repeat;
+
 }
