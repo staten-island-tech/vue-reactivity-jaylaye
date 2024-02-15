@@ -1,12 +1,13 @@
 const skins = [
-    [
+
         //side arms
 
     //frenzys
             {
               "name": "Origin",
               "gun": "Frenzy",
-              "tier": "Standard"
+              "tier": "Standard",
+              "image": "https://valorantinfo.com/images/us/origin-frenzy-level-4variant-3-white_valorant_full_skin_154554.webp",
             },
             {
               "name": "Nitro",
@@ -82,11 +83,11 @@ const skins = [
               "name": "Reaver",
               "gun": "Frenzy",
               "tier": "Standard"
-            }
+            },
          
             //shorty
 
-            [
+
                 {
                   "name": "Protocol",
                   "gun": "Shorty",
@@ -151,8 +152,8 @@ const skins = [
                   "name": "Duality",
                   "gun": "Shorty",
                   "tier": "Deluxe"
-                }
-              ]
+                },
+  
               
         // Sheriff
         {
@@ -307,11 +308,6 @@ const skins = [
           "gun": "Ghost",
           "tier": "Deluxe"
         },
-        {
-          "name": "Luxe",
-          "gun": "Ghost"
-
-
 
 
 
@@ -433,7 +429,7 @@ const skins = [
             "name": "Luxe",
             "gun": "Spectre",
             "tier": "Select"
-          }
+          },
 
 
           
@@ -540,7 +536,144 @@ const skins = [
     "name": "Luxe",
     "gun": "Bucky",
     "tier": "Select"
-  }
+  },
+
+  //bulldog
+  {
+    "name": "Elderflame",
+    "gun": "Bulldog",
+    "tier": "Deluxe"
+  },
+  {
+    "name": "Glitchpop",
+    "gun": "Bulldog",
+    "tier": "Select"
+  },
+  {
+    "name": "Reaver",
+    "gun": "Bulldog",
+    "tier": "Exclusive"
+  },
+  {
+    "name": "Sovereign",
+    "gun": "Bulldog",
+    "tier": "Deluxe"
+  },
+  {
+    "name": "RGX 11z Pro",
+    "gun": "Bulldog",
+    "tier": "Select"
+  },
+  {
+    "name": "RGX 2.0",
+    "gun": "Bulldog",
+    "tier": "Select"
+  },
+  {
+    "name": "Horizon",
+    "gun": "Bulldog",
+    "tier": "Standard"
+  },
+  {
+    "name": "BlastX",
+    "gun": "Bulldog",
+    "tier": "Standard"
+  },
+  {
+    "name": "Nitro",
+    "gun": "Bulldog",
+    "tier": "Standard"
+  },
+  {
+    "name": "Magepunk",
+    "gun": "Bulldog",
+    "tier": "Standard"
+  },
+  {
+    "name": "Luxe",
+    "gun": "Bulldog",
+    "tier": "Select"
+  },
+
+//guardian
+{
+  "name": "Horizon",
+  "gun": "Guardian",
+  "tier": "Standard"
+},
+{
+  "name": "BlastX",
+  "gun": "Guardian",
+  "tier": "Standard"
+},
+{
+  "name": "Nitro",
+  "gun": "Guardian",
+  "tier": "Standard"
+},
+{
+  "name": "Magepunk",
+  "gun": "Guardian",
+  "tier": "Standard"
+},
+{
+  "name": "Luxe",
+  "gun": "Guardian",
+  "tier": "Select"
+},
+{
+  "name": "Glitchpop",
+  "gun": "Guardian",
+  "tier": "Select"
+},
+{
+  "name": "Duality",
+  "gun": "Guardian",
+  "tier": "Deluxe"
+},
+{
+  "name": "Elderflame",
+  "gun": "Guardian",
+  "tier": "Deluxe"
+},
+{
+  "name": "Reaver",
+  "gun": "Guardian",
+  "tier": "Exclusive"
+},
+{
+  "name": "Sovereign",
+  "gun": "Guardian",
+  "tier": "Deluxe"
+},
+{
+  "name": "RGX 11z Pro",
+  "gun": "Guardian",
+  "tier": "Select"
+},
+{
+  "name": "RGX 2.0",
+  "gun": "Guardian",
+  "tier": "Select"
+},
+{
+  "name": "Champions 2023",
+  "gun": "Guardian",
+  "tier": "Standard"
+},
+{
+  "name": "Sakura",
+  "gun": "Guardian",
+  "tier": "Standard"
+},
+{
+  "name": "Prelude to Chaos",
+  "gun": "Guardian",
+  "tier": "Standard"
+},
+
+
+
 
     // Vandal
     {
@@ -654,17 +787,72 @@ const skins = [
         "name": "Luxe",
         "gun": "Phantom",
         "tier": "Select"
-      }
+      },
 
 
 
 
 
       //rifles
-
+//marshal
+{
+  "name": "Prime",
+  "gun": "Marshal",
+  "tier": "Deluxe"
+},
+{
+  "name": "Reaver",
+  "gun": "Marshal",
+  "tier": "Exclusive"
+},
+{
+  "name": "Glitchpop",
+  "gun": "Marshal",
+  "tier": "Select"
+},
+{
+  "name": "Sovereign",
+  "gun": "Marshal",
+  "tier": "Deluxe"
+},
+{
+  "name": "RGX 11z Pro",
+  "gun": "Marshal",
+  "tier": "Select"
+},
+{
+  "name": "RGX 2.0",
+  "gun": "Marshal",
+  "tier": "Select"
+},
+{
+  "name": "Horizon",
+  "gun": "Marshal",
+  "tier": "Standard"
+},
+{
+  "name": "BlastX",
+  "gun": "Marshal",
+  "tier": "Standard"
+},
+{
+  "name": "Nitro",
+  "gun": "Marshal",
+  "tier": "Standard"
+},
+{
+  "name": "Magepunk",
+  "gun": "Marshal",
+  "tier": "Standard"
+},
+{
+  "name": "Luxe",
+  "gun": "Marshal",
+  "tier": "Select"
+},
 
       //operator
-      [
+    
         // Operator
         {
           "name": "Protocol",
@@ -724,39 +912,147 @@ const skins = [
         {
           "name": "Glitchpop",
           "gun": "Operator",
-          "tier": "Select"
+          "tier": "Select",
         },
         {
           "name": "Duality",
           "gun": "Operator",
-          "tier": "Deluxe"
+          "tier": "Deluxe",
         },
         {
           "name": "Horizon",
           "gun": "Operator",
-          "tier": "Standard"
+          "tier": "Standard",
         },
         {
           "name": "Magepunk",
           "gun": "Operator",
-          "tier": "Standard"
+          "tier": "Standard",
         },
         {
           "name": "RGX 2.0",
           "gun": "Operator",
-          "tier": "Select"
+          "tier": "Select",
         },
         {
           "name": "Nitro",
           "gun": "Operator",
-          "tier": "Standard"
+          "tier": "Standard",
         },
         {
           "name": "Radiant Guardian",
           "gun": "Operator",
-          "tier": "Battle Pass"
-        }
-      ]
+          "tier": "Battle Pass",
+        },
+
+        //machine guns
+        {
+          "name": "Prime",
+          "gun": "Ares",
+          "tier": "Deluxe"
+        },
+        {
+          "name": "Reaver",
+          "gun": "Ares",
+          "tier": "Exclusive"
+        },
+        {
+          "name": "Sovereign",
+          "gun": "Ares",
+          "tier": "Deluxe"
+        },
+        {
+          "name": "RGX 11z Pro",
+          "gun": "Ares",
+          "tier": "Select"
+        },
+        {
+          "name": "RGX 2.0",
+          "gun": "Ares",
+          "tier": "Select"
+        },
+        {
+          "name": "Horizon",
+          "gun": "Ares",
+          "tier": "Standard"
+        },
+        {
+          "name": "BlastX",
+          "gun": "Ares",
+          "tier": "Standard"
+        },
+        {
+          "name": "Nitro",
+          "gun": "Ares",
+          "tier": "Standard"
+        },
+        {
+          "name": "Magepunk",
+          "gun": "Ares",
+          "tier": "Standard"
+        },
+        {
+          "name": "Luxe",
+          "gun": "Ares",
+          "tier": "Select"
+        },
+//odin
+{
+  "name": "Prime",
+  "gun": "Odin",
+  "tier": "Deluxe"
+},
+{
+  "name": "Glitchpop",
+  "gun": "Odin",
+  "tier": "Select"
+},
+{
+  "name": "Reaver",
+  "gun": "Odin",
+  "tier": "Exclusive"
+},
+{
+  "name": "Sovereign",
+  "gun": "Odin",
+  "tier": "Deluxe"
+},
+{
+  "name": "RGX 11z Pro",
+  "gun": "Odin",
+  "tier": "Select"
+},
+{
+  "name": "RGX 2.0",
+  "gun": "Odin",
+  "tier": "Select"
+},
+{
+  "name": "Horizon",
+  "gun": "Odin",
+  "tier": "Standard"
+},
+{
+  "name": "BlastX",
+  "gun": "Odin",
+  "tier": "Standard"
+},
+{
+  "name": "Nitro",
+  "gun": "Odin",
+  "tier": "Standard"
+},
+{
+  "name": "Magepunk",
+  "gun": "Odin",
+  "tier": "Standard"
+},
+{
+  "name": "Luxe",
+  "gun": "Odin",
+  "tier": "Select"
+},
+
+      ];
       
-]
-export {skins};
+      export { skins };
