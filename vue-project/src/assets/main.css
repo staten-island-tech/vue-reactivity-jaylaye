@@ -13,3 +13,17 @@ body{
   background-repeat: no-repeat;
 
 }
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#buttons button {
+  flex-grow: 1;
+  padding: 13px 20px;
+  font-size: 14px;
+  margin: 0 8px;
+}
+

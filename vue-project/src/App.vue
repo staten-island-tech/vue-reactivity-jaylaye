@@ -1,4 +1,5 @@
 <template>
+   <h1>Gun Skin Shop</h1>
   <div id="app">
  
     <div id="buttons">
@@ -34,19 +35,4 @@ export default {
 }
 </script>
 
-<style>
-#buttons {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
 
-#buttons button {
-  flex-grow: 1;
-  padding: 13px 20px;
-  font-size: 14px;
-  margin: 0 8px;
-}
-
-
-</style>
