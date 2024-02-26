@@ -1,6 +1,26 @@
 <script setup>
 
-const skins = [
+const URL = "https://valorant-api.com/v1/weapons/skins";
+
+async function getData(URL) {
+  try {
+    const response = await fetch(URL);
+    const data = await response.json();
+    const skinList = data.results;
+
+   for (const pokemon of pokemonList){
+      const pokemonDetails = await fetchPokemonDetails(pokemon.name);
+      createCard(pokemonDetails);
+    }
+  
+   
+    console.log(data);
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+/* const skins = [
 
         //side arms
 
@@ -11,35 +31,20 @@ const skins = [
               "tier": "Standard",
               "image": "https://valorantinfo.com/images/us/origin-frenzy-level-4variant-3-white_valorant_full_skin_154554.webp",
             },
-            {
-              "name": "Nitro",
-              "gun": "Frenzy",
-              "tier": "Standard"
-            },
-            {
-              "name": "Magepunk",
-              "gun": "Frenzy",
-              "tier": "Standard"
-            },
+
+
             {
               "name": "BlastX",
               "gun": "Frenzy",
-              "tier": "Standard"
+              "tier": "Standard",
+              "image": "https://vgraphs.com/images/weapons/skins/full-details/valorant-blastx-frenzy-weapon-skin.png",
             },
-            {
-              "name": "Champions 2023",
-              "gun": "Frenzy",
-              "tier": "Standard"
-            },
-            {
-              "name": "Battle Pass Season 1 Act 3",
-              "gun": "Frenzy",
-              "tier": "Standard"
-            },
+
             {
               "name": "Glitchpop",
               "gun": "Frenzy",
-              "tier": "Standard"
+              "tier": "Standard",
+              "image": "https://vgraphs.com/images/weapons/skins/full-details/valorant-blastx-frenzy-weapon-skin.png",
             },
             {
               "name": "RGX 2.0",
