@@ -52,4 +52,6 @@ getData(URL);
 
 </script>
 
-
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rock+3D&family=Rubik+Glitch+Pop&display=swap')
+</style>
